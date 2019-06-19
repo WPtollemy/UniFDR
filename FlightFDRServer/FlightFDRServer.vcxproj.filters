@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Alarms">
+      <UniqueIdentifier>{77a6823b-8dfd-4760-954c-8b71d3f71189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{c2246660-8f4b-45ac-93e6-35cb40e598e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{e79a4bfb-ae44-4985-bbe1-2ba8322c598e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Method">
+      <UniqueIdentifier>{d4ba1ad4-eb2b-4b33-89ef-ce35fcd634fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManipulation">
+      <UniqueIdentifier>{915d64bc-8e11-47f3-9e50-7e5ac2809a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Manipulation">
+      <UniqueIdentifier>{a0c05ab1-5cca-4818-a604-06e2678ed898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDRServerNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Alarm.h">
+      <Filter>Header Files\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="Critical.h">
+      <Filter>Header Files\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="Severe.h">
+      <Filter>Header Files\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="Warning.h">
+      <Filter>Header Files\Alarms</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDisplay.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneListDisplay.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="DataReader.h">
+      <Filter>Header Files\FileManipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorer.h">
+      <Filter>Header Files\FileManipulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDRServerNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneListDisplay.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDisplay.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightFDRServerMain.cpp">
+      <Filter>Source Files\Main Method</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorer.cpp">
+      <Filter>Source Files\File Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="DataReader.cpp">
+      <Filter>Source Files\File Manipulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
