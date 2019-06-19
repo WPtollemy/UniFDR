@@ -1,0 +1,10 @@
+﻿  FDRController.cpp
+d:\work\visual studio 2015\projects\flightfdrclient\flightfdrclient\location.h(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\work\visual studio 2015\projects\flightfdrclient\flightfdrclient\location.h(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\work\visual studio 2015\projects\flightfdrclient\flightfdrclient\location.h(16): warning C4305: '-=': truncation from 'double' to 'float'
+d:\work\visual studio 2015\projects\flightfdrclient\flightfdrclient\location.h(17): warning C4305: '+=': truncation from 'double' to 'float'
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  FlightFDRClientMain.cpp
+  FlightFDRClient.vcxproj -> D:\Work\Visual Studio 2015\Projects\FlightFDRClient\Debug\FlightFDRClient.exe
+  FlightFDRClient.vcxproj -> D:\Work\Visual Studio 2015\Projects\FlightFDRClient\Debug\FlightFDRClient.pdb (Full PDB)
